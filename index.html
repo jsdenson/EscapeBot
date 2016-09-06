@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Remote</title>
+    <!--
+        <meta name="viewport" content="width=device-width"/>
+    -->
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="cssmain.css">
+    </head>
+
+    <body>
+        <img id="hamburger"      src="hamburger2.gif"     class="hamburger"     style="visibility:visible"/>
+        <img id="space"     src="ledoff.png"     class="led"     style="visibility:hidden"/>
+        <img id="led0"      src="ledoff.png"     class="led"     style="visibility:visible" title="LED0" onclick="clickLed0('led0')" alt="0"/>
+        <img id="led1"      src="ledoff.png"     class="led"     style="visibility:visible" title="LED1" onclick="clickLed1('led1')" alt="0"/>
+        <div id="mouseshow" class="show"> </div>
+
+        <div id="container" class="container">
+            <div id="controls" class="controls" >
+                <img id="mousebkgnd"     src="mousebkgnd2.gif"    class="mousebkgnd"    style="visibility:visible"/>
+                <img id="mousebutton"    src="mousebutton2.gif"   class="mousebutton"   style="visibility:visible" title="Move"/>
+            </div>
+        </div>
+
+        <script language="javascript" src="main.js"></script>
+        <script language="javascript"> setup(); </script>
+
+    </body>
+
+</html>
